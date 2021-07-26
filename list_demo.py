@@ -35,6 +35,36 @@ print(student_pop02)
 print(student)
 student.remove('小刚')
 print(student)
-
 # 组织列表
+# 按照顺序对列表进行永久排序
+cars = ['bmw', 'toyota', 'audi', 'subaru']
+cars.sort()
+print(cars)
+# 相反顺序对列表进行永久排序
+cars.sort(reverse=True)
+print(cars)
+# 对列表进行临时排序
+print(sorted(cars))
+print(cars)
+# 对列表进行翻转
+cars.reverse()
+print(cars)
+# 确定列表的长度
+print(len(cars))
 # 遍历
+for car in cars:
+    print(car)
+# 对数字列表进行统计计算
+value = list(range(10))
+print(min(value))
+print(max(value))
+print(sum(value))
+# 切片
+print(cars[0:1])
+# 复制列表
+car02 = cars[:]
+print(cars)
+print(car02)
+car02.append("aaa")
+print(cars)
+print(car02)
