@@ -8,3 +8,5 @@ for value in range(1, 5):
 # 将让一组数转化为列表
 even_numbers = list(range(1, 5))
 print(even_numbers)
+
+
