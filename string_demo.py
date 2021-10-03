@@ -26,4 +26,6 @@ print(hobby_lstrip)
 # 删除首尾的空白(只是展示删除，原来的变量没有变)
 hobby_strip = hobby.strip()
 print(hobby_strip)
-
+# 正向查找子字符串，找到返回的值>=0没找到返回-1
+result = name.find('b')
+print(result)
