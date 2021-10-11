@@ -4,5 +4,3 @@
 
 message = input("请输入：")
 print(message)
-
-ssss
