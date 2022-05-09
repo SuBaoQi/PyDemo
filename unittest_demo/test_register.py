@@ -14,12 +14,11 @@ class TestRegister(unittest.TestCase):
     @classmethod	# 指明这是个类方法以类为维度去执行的
     def setUpClass(cls):
         # 整个测试用例类中的用例执行之前，会先执行此方法
-        print("-----setup---class-----")
-
+        print("TestRegister类下的用例开始执行")
     @classmethod
     def tearDownClass(cls):
         # 整个测试用例类中的用例执行完之后，会执行此方法
-        print("-----teardown---class-----")
+        print("TestRegister类下的用例结束")
     def test_register_success(self):
         """注册成功"""
         data = ("mikitest", "miki123", "miki123")   # 测试数据
