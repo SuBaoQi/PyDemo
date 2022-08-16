@@ -1,0 +1,4 @@
+2022-05-25 08:03:33,814  test INFO logging_test.py-27行：dsadsdsa
+2022-05-25 08:03:33,814  test ERROR logging_test.py-28行：sasas
+2022-07-18 23:34:31,143  test INFO logging_test.py-27行：dsadsdsa
+2022-07-18 23:34:31,146  test ERROR logging_test.py-28行：sasas

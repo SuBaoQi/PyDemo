@@ -76,8 +76,6 @@ def fun8(renshu):
         else:
             count += 1
     print(count)
-
-
 # 使用循环嵌套打印正等腰三角形
 #      *
 #     ***
@@ -86,4 +84,3 @@ def fun8(renshu):
 #  *********
 # ***********
 if __name__ == '__main__':
-    fun1()

@@ -1,4 +1,4 @@
-# register.py
+# test_register.py
 users = [{'username': 'test', 'password': '123456'}]
 
 
